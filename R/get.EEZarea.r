@@ -19,7 +19,7 @@ get.EEZarea<-function(londec,latdec,type=c('country')){
   # #To remove
   # load('P:/Pacifico/Rwork/Rprojects/eezareas/eezareas/data/EEZSpatialPolygons.Rdata')
   checkfiles()
-  eezs=readRDS(system.file("extdata", 'eezs.RDS', package = "eezareas"))
+  eezs=readRDS(system.file("extdata", 'eezs.RDS', package = "myareas"))
   # data(eezs)
   ###IMPORTANTE
   #ReadOGR puede que no funcione ya. En la función get.ICCATarea_sp utilizo otra librería, para cuando haya que actualizar!!!!

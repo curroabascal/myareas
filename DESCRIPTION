@@ -1,0 +1,14 @@
+Package: myareas
+Title: Get areas of use in long distance fisheries
+Version: 0.0.0.9000
+Authors@R: 
+    person("Francisco", "Abascal", , "francisco.abascal@ieo.csic.es", role = c("aut", "cre"))
+Description: Given longitude and latitude, in decimal degrees, it includes function to assign 
+	(i) sovereign country and territory, by using the shapefile available at MarineRegions.org (Flanders Marine Institute)
+	(ii) ICCAT statistical area, by using a GIS package provided by ICCAT Secretariat
+	(iii) FAO statistical area, by using the shapefile available at MarineRegions.org (Flanders Marine Institute)
+License: use_mit_license()
+Imports: sf
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
